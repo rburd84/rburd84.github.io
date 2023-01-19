@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  background: lightslategray;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  margin-inline-end: 1rem;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link a:hover {
+  color: silver;
+}
+
+.section-text {
+  font-size: 2.5rem;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  background: lightslategray;
+  justify-content: center;
+  align-items: center;
+}
